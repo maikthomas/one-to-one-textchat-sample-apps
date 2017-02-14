@@ -1,6 +1,5 @@
 ![logo](tokbox-logo.png)
 
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](./README.md)
 [![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](./.github/LICENSE)
 
 ______
