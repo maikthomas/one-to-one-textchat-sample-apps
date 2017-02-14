@@ -434,6 +434,11 @@ public class MainActivity extends AppCompatActivity implements PreviewControlFra
                     Log.i(LOG_TAG, "Connected to the session. Number of participants: "+participantsCount);
                     isConnected = true;
                     mProgressDialog.dismiss();
+                    //TextchatFragment requires a session. In the current accelerator, the session is connected in the app and then,
+                    // the accelerator is initialized.
+                    if (mTextChatFragment != null) {
+                        mTextChatFragment.init();
+                    }
                 }
 
                 @Override
