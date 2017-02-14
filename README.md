@@ -1,5 +1,10 @@
 ![logo](tokbox-logo.png)
 
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](./README.md)
+[![license MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](./.github/LICENSE)
+
+______
+
 # One to One Text Chat Sample App
 
 The OpenTok One-to-One Text Chat Sample App is an open-source solution that enables you to quickly get started in your development efforts to set up interoperable, production-quality audio/video communication and to exchange text messages between mobile or browser-based devices.
